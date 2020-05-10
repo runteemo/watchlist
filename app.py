@@ -40,4 +40,4 @@ movies = [
 
 @app.route('/teemo')
 def index():
-    return  render_template('index.html',name=name,movies=movies)
+    return render_template('index.html', name=name, movies=movies)
